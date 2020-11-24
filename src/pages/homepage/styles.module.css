@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.scrolling-container {
+  display: flex;
+  width: 80%;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  position: absolute;
+  box-shadow: 0 0px 1px 1px  rgba(41,45,42,.1), 0 1px 1px 0  rgba(41,45,42,.1);
+}
+
+.scrolling-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-container div {
+  margin: 10px 20px;
+  animation: scrolling-container 18s linear infinite;
+}
+
+@keyframes scrolling-container {
+  100% { 
+    transform: translateX(-390%);  
+  }
+}
