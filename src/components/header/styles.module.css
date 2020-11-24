@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+  height: 50vh;
+  background-color: #f1f1f6;
+  padding-bottom: 2%;
+}
+
+.container h1 {
+  width: 75%;
+  text-align: left;
+  color: #323d92;
+  font-weight: 500;
+  font-size: 2.4em;
+}
+
+.container div {
+  width: 80%;
+}
+
+@media only screen and (max-width: 1185px) {
+  .container h1 {
+    width: 90%;
+    font-size: 2.2em;
+  }
+
+  .container {
+    height: 48vh;
+  }
+} 
+
+@media only screen and (max-width: 1025px) {
+  .container h1 {
+    width: 100%;
+    font-size: 2.1em;
+  }
+
+  .container {
+    height: 45vh;
+  }
+} 
+
+@media only screen and (max-width: 778px) {
+  .container h1 {
+    width: 100%;
+    font-size: 1.7em;
+  }
+
+  .container {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container h1 {
+    width: 100%;
+    font-size: 1.5em;
+  }
+
+  .container {
+    height: 35vh;
+    padding-bottom: 13%;
+  }
+} 
