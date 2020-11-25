@@ -4,7 +4,7 @@
   width: 100%;
   align-items: flex-end;
   height: 50vh;
-  background-color: #f1f1f6;
+  background-color: #fff;
   padding-bottom: 2%;
 }
 
@@ -51,16 +51,19 @@
   .container {
     height: 40vh;
   }
+  
+  .container div {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .container h1 {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .container {
-    height: 35vh;
-    padding-bottom: 13%;
+    height: 40vh;
   }
 } 
