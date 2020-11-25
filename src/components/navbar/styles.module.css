@@ -1,9 +1,12 @@
 .container {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 100wd;
   height: 55px;
   background-color: #283171;
+  z-index: 1;
 }
 
 .nav-items {
@@ -58,7 +61,7 @@
 
 .sidebar-items {
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   margin-top: 55px;
   width: 100%;
   background-color: #fff;
@@ -87,5 +90,32 @@
 .left-nav-items {
   display: flex;
 }
+
+@media only screen and (max-width: 380px) {
+  .logo {
+    font-size: 20px;
+    margin: 0 0px 0 10px;
+  }
+
+  .hamburger-menu, .cross-icon {
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0px 0 5px;
+  }
+
+  .hamburger-menu, .cross-icon {
+    left: 50px;
+  }
+
+  .button {
+    margin-right: 15px;
+  }
+} 
 
 
