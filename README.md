@@ -36,6 +36,7 @@
 * [About the Project](#about-the-project)
 * [Live Link](#Live-Link-(Netlify))
 * [Built With](#built-with)
+* [Video Presentation](#video)
 * [Installation](#installation)
 * [Contact](#Authors)
 
@@ -56,6 +57,12 @@ Airbnb, GitHub etc.
 ## Live Link (Heroku)
 
 [Click Here](https://assignment-project-jassi.herokuapp.com/individual)
+
+<!-- VIDEO -->
+
+## Video Presentation 
+
+[Click Here](https://www.loom.com/share/ef864166b6064f3eac2e7124d42b17fb)
 
 
 <!-- INSTALLATION -->
