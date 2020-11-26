@@ -26,6 +26,10 @@
   cursor: pointer;
 }
 
+.nav-item a {
+  color: #fff;
+}
+
 .logo {
   font-size: 22px;
   margin: 0 10px 0 20px;
@@ -33,7 +37,7 @@
   color: #ff003d;
 }
 
-.nav-item:hover {
+.nav-item:hover, .nav-item a:hover {
   color: rgb(192, 183, 183);
 }
 
@@ -75,15 +79,15 @@
   border: 0.2px solid rgb(240, 237, 237);
 }
 
-.sidebar-item:first-child {
-  border-top: 0.2px solid rgb(240, 237, 237);
+.sidebar-items a {
+  border: transparent;
 }
 
 .sidebar-item:last-child {
   border-bottom: 0.2px solid rgb(240, 237, 237); 
 }
 
-.sidebar-item:hover {
+.sidebar-item:hover , .sidebar-items a:hover {
   color: #ff003d;
 }
 
