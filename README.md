@@ -55,7 +55,7 @@ Airbnb, GitHub etc.
 
 ## Live Link (Heroku)
 
-[Click Here](https://jassi-netflix-clone.herokuapp.com/)
+[Click Here](https://assignment-project-jassi.herokuapp.com/individual)
 
 
 <!-- INSTALLATION -->
@@ -85,7 +85,7 @@ Congrats, now you have a running 'Assignment-App' locally in your browser.
 - React-icons
 - Flex-box
 - Grid
-- [Heroku](https://jassi-netflix-clone.herokuapp.com/)
+- [Heroku](https://assignment-project-jassi.herokuapp.com/individual)
 
 <!-- CONTACT -->
 
