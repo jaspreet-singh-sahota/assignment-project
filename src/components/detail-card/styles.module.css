@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #283171;
+  padding: 100px 50px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 70px !important;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #f04839;
+  color: #f04839;
+}
+
+.container h2, .container p {
+  text-align: center;
+}
+
+.container p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container h2 {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 778px) {
+  .container {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 50px 0px;
+  }
+}

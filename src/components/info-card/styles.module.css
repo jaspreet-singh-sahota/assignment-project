@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  width: 165px;
+  height: 165px;
+  border: 2px solid white;
+  background-color: rgb(245, 248, 248);
+  box-shadow: 0 0px 2px 2px  rgba(41,45,42,.1), 0 2px 2px 0  rgba(41,45,42,.1);
+  cursor: pointer;
+  transition: all .2s ease-out;
+  position: relative;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: auto;
+  height: 85px;
+}
+
+.container ul {
+  position: absolute;
+  left: -25px;
+  bottom: -7px;
+}
+
+.container ul li {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}

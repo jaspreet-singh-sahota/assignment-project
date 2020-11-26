@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(#fff, #f1f1f6);
+}
+
+.scrolling-container {
+  display: flex;
+  width: 80%;
+  overflow-x: hidden;
+  flex-wrap: nowrap;
+  background-color: rgb(241, 245, 247);
+  box-shadow: 0 0px 1px 1px  rgba(41,45,42,.1), 0 1px 1px 0  rgba(41,45,42,.1);
+  padding: 20px 0;
+  margin: 15vh 0;
+}
+
+.scrolling-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrolling-container div {
+  margin: 10px 20px;
+  animation: scrolling-container 18s linear infinite;
+}
+
+.background {
+  background-image: linear-gradient(#fff, #f1f1f6);
+}
+
+@keyframes scrolling-container {
+  100% { 
+    transform: translateX(-390%);  
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .scrolling-container {
+    width: 90%;
+  }
+}

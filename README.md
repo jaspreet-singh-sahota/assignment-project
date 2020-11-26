@@ -1,71 +1,125 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
 
-In the project directory, you can run:
+<br />
+<p align="center">
+  <h2 align="center">Assignment Project</h2>
+  <p align="center">
+    <a href="https://github.com/jaspreet-singh-sahota/assignment-project/issues">Report Bug</a>
+    · 
+    <a href="https://github.com/jaspreet-singh-sahota/assignment-project/issues">Request Feature</a>
+  </p>
+</p>
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [About the Project](#about-the-project)
+* [Live Link](#Live-Link-(Netlify))
+* [Built With](#built-with)
+* [Video Presentation](#video)
+* [Installation](#installation)
+* [Contact](#Authors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn test`
+The Assignment project is built with React. This project is a two page application with a mobile friendly UI where user can check the individual ratings from platform like Twitter, Facebook, Instagram,
+Airbnb, GitHub etc.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## features
+- collapsing navbar
+- horizontal scrolling rating cards where you check the individual's rating
+- User can navigate to different pages from the navbar(For now Individual page only)
+- can play the video from the Homepage and Individual page
 
-### `yarn build`
+<!-- Live Link (Netlify) -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Link (Heroku)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Click Here](https://assignment-project-jassi.herokuapp.com/individual)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- VIDEO -->
 
-### `yarn eject`
+## Video Presentation 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Click Here](https://www.loom.com/share/ef864166b6064f3eac2e7124d42b17fb)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- INSTALLATION -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installation
 
-## Learn More
+To run 'Assignment-App' locally, clone the repository, navigate to it's containing directory.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Follow these commands step by step:-  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git@github.com:jaspreet-singh-sahota/assignment-project.git
+cd assignment-project
+npm install
+npm start
+```
 
-### Code Splitting
+Congrats, now you have a running 'Assignment-App' locally in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- BUILD WITH -->
 
-### Analyzing the Bundle Size
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- Modules css
+- npm
+- React-icons
+- Flex-box
+- Grid
+- [Heroku](https://assignment-project-jassi.herokuapp.com/individual)
 
-### Making a Progressive Web App
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+👤 **Jaspreet Singh** 
+    
+- [LinkedIn](https://www.linkedin.com/in/jaspreet-singh-a28286146/)
+- [GitHub](https://github.com/jaspreet-singh-sahota)
+- [Email](jaspreetsinghjassi01@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `yarn build` fails to minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jaspreet-singh-sahota/assignment-project.svg?style=flat-square
+[contributors-url]: https://github.com/jaspreet-singh-sahota/assignment-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jaspreet-singh-sahota/assignment-project.svg?style=flat-square
+[forks-url]: https://github.com/jaspreet-singh-sahota/assignment-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/jaspreet-singh-sahota/assignment-project.svg?style=flat-square
+[stars-url]: https://github.com/jaspreet-singh-sahota/assignment-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jaspreet-singh-sahota/assignment-project.svg?style=flat-square
+[issues-url]: https://github.com/jaspreet-singh-sahota/assignment-project/issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# assignment-project
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

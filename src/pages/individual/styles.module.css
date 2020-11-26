@@ -1,0 +1,30 @@
+.container {
+  padding-top: 10%;
+  background-image: linear-gradient(#fff, #f1f1f6);
+}
+
+.rating-card {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 4% 0px;
+  justify-content: center;
+}
+
+.rating-card div {
+  margin: 10px 20px;
+}
+
+@media only screen and (max-width: 880px) {
+  .container {
+    padding-top: 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .rating-card div {
+    margin: 10px 5px;
+  }
+}
+
