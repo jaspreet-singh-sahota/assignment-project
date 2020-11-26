@@ -1,8 +1,10 @@
 import React from 'react';
+
 import {
-  ImFacebook2, ImInstagram, ImTwitter, ImYoutube,
-} from 'react-icons/im';
-import { FaYoutube, FaTwitter, FaInstagram, FaFacebookF, FaAngellist, FaAirbnb, FaAmazon } from 'react-icons/fa';
+  FaYoutube, FaTwitter,
+  FaInstagram, FaFacebookF,
+  FaAngellist, FaAirbnb, FaAmazon
+} from 'react-icons/fa';
 
 import styles from './styles.module.css'
 
@@ -11,7 +13,7 @@ function Footer() {
     <div className={styles.footer}>
       <h1>Enabling trust that's easy to prove.</h1>
       <p>R-logo allows you to gather your ratings from ANY website, including:</p>
-      
+
       <div className={styles.icons}>
         <FaFacebookF className={styles.icon} />
         <FaInstagram className={styles.icon} />

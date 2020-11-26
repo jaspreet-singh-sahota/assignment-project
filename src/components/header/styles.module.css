@@ -1,28 +1,21 @@
 .container {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  width: 80%;
   align-items: flex-end;
   height: 50vh;
   background-color: #fff;
-  padding-bottom: 2%;
+  padding: 0 10% 2% 10%;
 }
 
 .container h1 {
   width: 75%;
-  text-align: left;
   color: #323d92;
   font-weight: 500;
   font-size: 2.4em;
 }
 
-.container div {
-  width: 80%;
-}
-
 @media only screen and (max-width: 1185px) {
   .container h1 {
-    width: 90%;
     font-size: 2.2em;
   }
 
@@ -33,7 +26,6 @@
 
 @media only screen and (max-width: 1025px) {
   .container h1 {
-    width: 100%;
     font-size: 2.1em;
   }
 
@@ -49,21 +41,14 @@
   }
 
   .container {
+    padding: 0 5% 2% 5%;
     height: 40vh;
-  }
-  
-  .container div {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .container h1 {
-    width: 100%;
     font-size: 1.4em;
-  }
-
-  .container {
-    height: 40vh;
   }
 } 

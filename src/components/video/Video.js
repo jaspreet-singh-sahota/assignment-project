@@ -6,9 +6,9 @@ const Video = () => {
     <div className={styles.container}>
       <div className={styles['video-container']}>
         <iframe src='https://www.youtube.com/embed/6bpU-cEqUw4'
-          frameborder='0'
+          frameBorder='0'
           allow='autoplay; encrypted-media'
-          allowfullscreen
+          allowFullScreen
           title='video'
           className={styles.video}
         />

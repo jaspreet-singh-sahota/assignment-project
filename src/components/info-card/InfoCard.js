@@ -8,7 +8,7 @@ const InfoCard = ({imgLink, info}) => {
       <div className={styles.container}>
         <img className={styles.image} src={imgLink} />
         <ul>
-          {info.map((item, key) => <li key={key}>{item}</li>)}
+          {info.map((item) => <li key={item}>{item}</li>)}
         </ul>
       </div>
     </div>
