@@ -51,7 +51,7 @@ const Navbar = () => {
       </div>
       <div className={styles['nav-items']}>
         <div className={styles.button}>
-          <a href='https://app.reputationaire.com/' target="_blank">
+          <a href='https://app.reputationaire.com/' rel="noreferrer" target="_blank">
             <Button inverted type={'button'}>Login</Button>
           </a>
         </div>
