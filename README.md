@@ -38,7 +38,6 @@
 * [Built With](#built-with)
 * [Installation](#installation)
 * [Contact](#Authors)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -49,7 +48,7 @@ Airbnb, GitHub etc.
 ## features
 - collapsing navbar
 - horizontal scrolling rating cards where you check the individual's rating
-- User can navigate to different pages from the navbar
+- User can navigate to different pages from the navbar(For now Individual page only)
 - can play the video from the Homepage and Individual page
 
 <!-- Live Link (Netlify) -->
@@ -117,4 +116,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-# react-netflix-clone
