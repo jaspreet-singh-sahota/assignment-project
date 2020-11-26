@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import Button from '../button/Button'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [showHamburgerMenu, setShowHamburgerMenu] = useState(false)
@@ -17,7 +18,8 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles['left-nav-items']}>
-        <div className={styles.logo}>R logo</div>
+        <Link to='/' className={styles.logo}>R logo</Link>
+
         {showHamburgerMenu ? !isMenuOpen ?
           <GiHamburgerMenu
             onClick={() => setIsMenuOpen(prev => !prev)}
@@ -28,10 +30,13 @@ const Navbar = () => {
             className={styles['cross-icon']}
           /> : null
         }
+
         {
           (isMenuOpen || !showHamburgerMenu) &&
           <div className={styles[!showHamburgerMenu ? 'nav-items' : 'sidebar-items']}>
-            <div className={styles[!showHamburgerMenu ? 'nav-item' : 'sidebar-item']}>Individuals</div>
+            <div className={styles[!showHamburgerMenu ? 'nav-item' : 'sidebar-item']}>
+              <Link to='/individual'>Individuals</Link>
+            </div>
             <div className={styles[!showHamburgerMenu ? 'nav-item' : 'sidebar-item']}>Tech Employers</div>
             <div className={styles[!showHamburgerMenu ? 'nav-item' : 'sidebar-item']}>Property Managers</div>
             <div className={styles[!showHamburgerMenu ? 'nav-item' : 'sidebar-item']}>Gig Economies</div>
@@ -44,10 +49,12 @@ const Navbar = () => {
       </div>
       <div className={styles['nav-items']}>
         <div className={styles.button}>
-          <Button inverted type={'button'}>Login</Button>
+          <a href='https://app.reputationaire.com/' target="_blank">
+            <Button inverted type={'button'}>Login</Button>
+          </a>
         </div>
         <div className={styles.button}>
-          <Button type={'button'}>Live Demo</Button>
+          <Button type={'button'}>Free Demo</Button>
         </div>
       </div>
     </div>
