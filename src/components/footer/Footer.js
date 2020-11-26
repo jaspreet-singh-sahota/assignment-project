@@ -1,4 +1,5 @@
 import React from 'react';
+import { footerData } from './footerData'
 
 import {
   FaYoutube, FaTwitter,
@@ -27,35 +28,19 @@ function Footer() {
       <div className={styles.container}>
         <div className={styles['flex-container']}>
           <div className={styles.row}>
-            <div className={styles.column}>
-              <div className={styles.link} href="#">Blockchain Police Check</div>
-              <div className={styles.link} href="#">Team</div>
-              <div className={styles.link} href="#">Privacy</div>
-            </div>
 
-            <div className={styles.column}>
-              <div className={styles.link} href="#">Services</div>
-              <div className={styles.link} href="#">Blog</div>
-              <div className={styles.link} href="#">Legal Notices</div>
-            </div>
-
-            <div className={styles.column}>
-              <div className={styles.link} href="#">Help Center</div>
-              <div className={styles.link} href="#">Sign in</div>
-              <div className={styles.link} href="#">Live Demo</div>
-            </div>
-
-            <div className={styles.column}>
-              <div className={styles.link} href="#">About us</div>
-              <div className={styles.link} href="#">Contact us</div>
-              <div className={styles.link} href="#">Terms of Use</div>
-            </div>
+            {footerData.map(data =>
+              <div key={data.id} className={styles.column}>
+                {data.items.map(item =>
+                  <div key={item} className={styles.link} href="#">
+                    {item}
+                  </div>)
+                }
+              </div>)
+            }
 
           </div>
         </div>
-      </div>
-
-      <div className={styles['service-button-container']}>
       </div>
     </div>
   );
