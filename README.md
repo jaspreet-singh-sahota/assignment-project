@@ -64,7 +64,6 @@ Airbnb, GitHub etc.
 
 [Click Here](https://www.loom.com/share/ef864166b6064f3eac2e7124d42b17fb)
 
-
 <!-- INSTALLATION -->
 
 ## Installation
